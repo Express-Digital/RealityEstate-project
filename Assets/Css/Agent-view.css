@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700;800&display=swap');
+
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.agent-title {
+    height: 350px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.815),  rgba(0, 0, 0, 0.795)), url('../Images/ABOUT/about-7.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+/* all mediaquery */
+
+@media (max-width: 768px) {
+    .agent-title .agent-write{
+        width: 100%;
+       padding: 40% 0;
+    }
+
+    .agent-title .agent-write h2{
+        font-size: 17px;
+    }
+
+    .agent-name .agent-num {
+        width: 95%;
+    }
+
+    .agent-pro .agent-about h3{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .agent-pro .agent-about p{
+        font-size: 15px;
+    }
+
+    .the-review .contact-review h5{
+        /* border: 2px solid; */
+        margin-bottom: -4px;
+        margin-top: 30px;
+    }
+
+    #footer .social{
+        margin-bottom: 20px;
+    }
+}
+
+.agent-write{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 9.5% 0;
+}
+
+.agent-write h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.agent-write span{
+    color: #ea830e;
+}
+
+.agent-write p{
+    color: #ea830e;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.agent-write a{
+    color: #ea830e;
+}
+.agent-write a:hover{
+    color: #ea830e;
+    text-decoration: none;
+}
+
+.agent-write small{
+    color: #fff;
+}
+
+/* agent-img */
+
+.view-img{
+    width: fit-content;
+    margin: 10% auto 0 auto;
+}
+
+.view-img img{
+    border-radius: 50%;
+    border: 2px solid #ea830e;
+}
+
+.view-img img:hover{
+    transform: scale(110%);
+    transition: 4s;
+}
+
+.agent-name{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.agent-name1 h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.agent-name1 p{
+    color: #ea830e;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.agent-num{
+    text-align: center;
+}
+
+.agent-num i {
+    color: #ea830e;
+    font-size: 14px;
+}
+
+.agent-num a{
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 9px;
+}
+
+.agent-num a:hover{
+    color: #ea830e;
+    text-decoration: none;
+}
+
+/* agent-about */
+
+.agent-pro{
+    margin-top: 10%;
+    box-shadow:  rgba(0, 0, 0, 0.56) 0px 3px 6px, rgba(0, 0, 0, 0.67) 0px 3px 6px, rgba(0, 0, 0, 0.70) 0px 3px 6px;
+}
+
+.agent-about{
+    width: fit-content;
+    margin: 10% auto;
+}
+
+.agent-about h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ea830e;
+    text-align: center;
+}
+
+.agent-about h3:hover{
+    transform: scale(110%);
+    transition: 4s;
+}
+
+
+.agent-about p{
+    margin-top: 30px;
+    width: fit-content;
+    text-align: justify;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* agent-info */
+
+.agent-info{
+    width: fit-content;
+    margin: 10% auto;
+}
+
+.agent-info h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ea830e;
+    text-align: center;
+}
+.agent-info h4:hover{
+    transform: scale(110%);
+    transition: 4s;
+}
+
+.agent-info h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
+
+.agent-info p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #ea830e;
+}
+
+/* the-review */
+
+.the-review{
+    margin-top: 10%;
+    padding: 30px 0;
+}
+
+.review h5{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ea830e;
+    text-align: center;
+}
+
+.review h5:hover{
+    transform: scale(110%);
+    transition: 4s;
+}
+
+.review-form form{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.form-group input{
+    border: 2px solid #ea830e;
+    border-radius: 10px;
+    color: #ea830e;
+    padding: 12px;
+    margin: 5px 0;
+}
+
+#uname::placeholder{
+    color: #ea830e;
+}
+
+.form-group .rating{
+    color: #000;
+    margin-top: 20px;
+}
+
+.form-control option {
+    padding: 40px;
+}
+
+option{
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+}
+
+#exampleFormControlSelect1:hover{
+    background-color: #ea830e;
+}
+
+#comment{
+    border: 2px solid #000;
+}
+
+#comment::placeholder{
+    color: #ea830e;
+}
+
+form .btn-review  {
+    color: #ea830e;
+    background-color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+form .btn-review i{
+    transform: rotate(-45deg);
+    padding-left: 10px;
+}
+
+
+form .btn-review:hover{
+    transform: scale(110%);
+    transition: 4s;
+}
+
+/* contact-review */
+
+.contact-review h5{
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ea830e;
+    text-align: center;
+}
+
+.contact-review h5:hover{
+    transform: scale(110%);
+    transition: 5s;
+}
+
+.contact-group{
+    padding-top: 18px;
+}
+#name::placeholder{
+    color: #000;
+    font-weight: 300;
+}
+form .btn-contact{
+    color: #000;
+    background-color: #ea830e;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+form .btn-contact i{
+    transform: rotate(-45deg);
+    padding-left: 10px;
+}
+
+form .btn-contact:hover{
+    border: 2px solid #000;
+    transform: scale(110%);
+    transition: 4s;
+}
+

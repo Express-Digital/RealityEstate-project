@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700;800&display=swap');
+
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* all mediaquery */
+
+@media (max-width: 768px) {
+    .about-title .about-write{
+       width: 100%;
+       padding: 40% 0;
+    }
+
+    .about-body .about-call {
+        width: fit-content;
+        margin: 0 20px;
+    }
+
+    .about-body .about-call .call-1 h3{
+        font-size: 17px;
+        text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .about-body .about-img{
+        position:fixed;
+        visibility: collapse;
+    }
+
+    #footer .quick{
+        margin-top: 20px;
+    }
+}
+
+.about-title {
+    height: 350px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.815),  rgba(0, 0, 0, 0.795)), url('../Images/ABOUT/about-4.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+.about-write{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 9.5% 0;
+}
+
+.about-write h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.about-write span{
+    color: #ea830e;
+}
+
+.about-write p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.about-write a{
+    color: #ea830e;
+}
+.about-write a:hover{
+    color: #ea830e;
+    text-decoration: none;
+}
+
+.about-write small{
+    color: #fff;
+}
+
+
+/* =======================about-Info====================== */
+
+.about-icon {
+    margin-top: 10%;
+}
+
+.about-call{
+    width: 90%;
+    margin: 25px 0;
+}
+
+.about-call .call-1 h3{
+    width: 80%;
+    line-height: 1.5;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-call .call-2 h3{
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    
+}
+
+.about-call .call-2 p{
+    line-height: 1.5;
+    width: 90%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #888787;
+}
+
+.about-call .call-2 i{
+    font-size: 25px;
+    border-radius: 50%;
+    margin: auto 25px auto 0;
+    color: #fff;
+    background-color: #000;
+    padding: 17px;
+    border: 3px solid #ea830e;
+}
+
+.call-2 i:hover{
+    transform: scale(110%);
+    transition: 4s;
+}
+
+.about-img{
+    width: 100%;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.about-call .btn{
+    text-align: center;
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px 30px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    background-color: #ea830e;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.about-call .btn:hover{
+    transform: scale(110%);
+    transition: 4s;
+}
+
+/* ====================About-counter====================== */
+.about-counter {
+    margin-top: 10%;
+    border-radius: 20px;
+    text-align: center;
+    color: #ea830e;
+}
+
+.about-counter i:hover{
+    transform: scale(110%);
+    transition: 4s;
+}
+
+.about-counter i{
+    color: #000;
+    font-size: 40px;
+}
+
+.about-counter h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-counter p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+  

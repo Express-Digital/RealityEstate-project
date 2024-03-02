@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700;800&display=swap');
+
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    /* transition: 1s all ease-in; */ 
+}
+
+@media (max-width: 768px){
+
+    .sign-title .sign-write{
+        width: 100%;
+        padding: 40% 0;
+    }
+
+    .sign-title .sign-write h2{
+        font-size: 17px;
+    }
+
+    #footer .att{
+        margin: 20px 0;
+    }
+
+    #mynavbar .collapse a{
+        color: #ea830e;
+    }
+}
+
+.plans-title {
+    height: 350px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.815),  rgba(0, 0, 0, 0.795)), url('../Images/ABOUT/about-8.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+.plans-write{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 9.5% 0;
+    padding-left: 40px;
+}
+
+.plans-write h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.plans-write span{
+    color: #ea830e;
+}
+
+.plans-write p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.plans-write a{
+    color: #ea830e;
+}
+
+.plans-write a:hover{
+    color: #ea830e;
+}
+
+.plans-write small{
+    color: #fff;
+}
+
+
+/* The-price */
+
+.price-main{
+    border: 2px solid #000;
+    width: fit-content;
+}
+
+
+/* footer */
+
+.modal-footer{
+    margin-bottom: 30px;
+}
+
+.modal-footer p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    width: 60%;
+    margin: auto;
+}
+
+.modal-footer a{
+    color: #ea830e;
+}
+

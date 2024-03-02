@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700;800&display=swap');
+
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    /* transition: 1s all ease-in; */ 
+}
+
+@media (max-width: 768px){
+
+    .sign-title .sign-write{
+        width: 100%;
+        padding: 40% 0;
+    }
+
+    .sign-title .sign-write h2{
+        font-size: 17px;
+    }
+
+    #footer .att{
+        margin: 20px 0;
+    }
+
+    #mynavbar .collapse a{
+        color: #ea830e;
+    }
+}
+
+.sign-title {
+    height: 350px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.815),  rgba(0, 0, 0, 0.795)), url('../Images/ABOUT/about-8.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+.sign-write{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding: 9.5% 0;
+    padding-left: 40px;
+}
+
+.sign-write h2 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sign-write span{
+    color: #ea830e;
+}
+
+.sign-write p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sign-write a{
+    color: #ea830e;
+}
+
+.sign-write a:hover{
+    color: #ea830e;
+}
+
+.sign-write small{
+    color: #fff;
+}
+
+button.sign-image{
+    border: none;
+}
+
+.sign-image{
+    width: fit-content;
+    margin: -45px auto; 
+}
+
+.sign-image:hover{
+    transform: scale(110%);
+    transition: 0.2s;
+}
+
+
+button.modal-btn{
+    color: #fff;
+    background-color: #ea830e;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 20px;
+}
+
+.model-A{
+    position: relative;
+    margin-top: 90px;
+    width: 100%;
+}
+
+.modal-header{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.modal-title{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn{
+    width: 100%;
+    padding: 20px 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.btn-1{
+    background-color: #000;
+    color: #ea830e;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.btn-1:hover{
+    transform: scale(90%);
+    transition: 0.2s;
+}
+
+.icobtn{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: -20px;
+    transform: rotate(45deg);
+}
+
+.btn-icon-1 .icon-1{
+    border: 2px solid #ea830e;
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-icon-1 .icon-1:hover{
+    transform: scale(90%);
+    transition: 0.2s;
+}
+
+.btn-icon-2 .icon-2{
+    color: #fff;
+    border-radius: 15px;
+    background-color: #ea830e;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-icon-2 .icon-2:hover{
+    transform: scale(90%);
+    transition: 0.2s;
+}
+
+.btn-icon-3 .icon-3{
+    color: #ea830e;
+    border-radius: 15px;
+    background-color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-icon-3 .icon-3:hover{
+    transform: scale(90%);
+    transition: 0.2s;
+}
+
+.iconbtn1{
+    position: absolute;
+    left: 40px;
+}
+
+.or{
+    text-align: center;
+    width: 10%;
+    margin: auto;
+}
+
+
+.remember-lost .form-check{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.lost-your a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.lost-your a:hover{
+    color: #ea830e;
+    text-decoration: none;
+}
+
+/* footer */
+
+.modal-footer{
+    margin-bottom: 30px;
+}
+
+.modal-footer p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    width: 60%;
+    margin: auto;
+}
+
+.modal-footer a{
+    color: #ea830e;
+}
+
+
+
+
